@@ -4,7 +4,7 @@
 #!author = RuCu6 kokoryh
 #!homepage = https://github.com/luestr/ProxyToolbox/tree/main/Tool/Loon/Plugin
 #!icon = https://raw.githubusercontent.com/luestr/iconlibrary/main/App_icon/120px/Amap.png
-#!date = 2023-11-15 18:30:57
+#!date = 2023-11-28 16:30:57
 
 [Rule]
 DOMAIN, amap-aos-info-nogw.amap.com, REJECT
