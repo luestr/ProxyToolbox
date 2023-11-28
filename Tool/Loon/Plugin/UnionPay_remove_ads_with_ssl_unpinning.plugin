@@ -19,7 +19,7 @@ DOMAIN, tysdk.95516.com, REJECT
 ^https:\/\/life\.95516\.com\/life\/inApp\/wealth\/home\/qryTopList reject-dict
 
 [Script]
-http-response ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup script-path = https://gitlab.com/lodepuly/vpn_tool/raw/master/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js, requires-body = true, tag = 移除云闪付推广
+http-response ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup script-path = https://raw.githubusercontent.com/luestr/ProxyToolbox/main/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js, requires-body = true, tag = 移除云闪付推广
 
 [Mitm]
 hostname = base.95516.com, life.95516.com
